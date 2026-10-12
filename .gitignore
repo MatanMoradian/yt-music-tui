@@ -1,0 +1,10 @@
+/target
+
+# YouTube Music login (request headers incl. session cookie) — never commit
+browser.json
+*.json
+headers*.txt
+.env
+
+# no GitHub Actions / Dependabot: nothing should run on push
+/.github/
